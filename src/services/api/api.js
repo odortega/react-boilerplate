@@ -1,5 +1,5 @@
 // Environment variable for API base URL
-const BASE_URL = process.env.REACT_APP_API;
+const BASE_URL = process.env.REACT_APP_API_URL;
 
 /**
  * Generic fetch wrapper function to handle requests and responses uniformly.

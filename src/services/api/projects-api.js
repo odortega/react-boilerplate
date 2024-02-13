@@ -1,6 +1,6 @@
 import fetchAPI from "./api";
 
-const projectsEndpoint = "/books";
+const projectsEndpoint = "books";
 
 /**
  * Fetches the list of projects.

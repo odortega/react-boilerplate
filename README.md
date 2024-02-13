@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# React Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a custom React boilerplate based on Create React App (CRA) designed to kickstart development with a pre-configured setup. It integrates a robust set of tools and libraries to provide a comprehensive starting point for React applications.
 
-## Available Scripts
+## Features 🌟
 
-In the project directory, you can run:
+- **Create React App (CRA)**: Leverages CRA for a smooth development experience and optimized build process.
+- **State Management**: Utilizes MobX for efficient and scalable state management.
+- **Routing**: Implements React Router for navigation.
+- **UI Components**: Includes Ant Design for a comprehensive set of high-quality components.
+- **Styling**: Styled-components for component-scoped styles.
+- **Internationalization**: i18next for easy localization and internationalization.
+- **Testing**: Setup with Jest, React Testing Library, and Cypress for unit, integration, and end-to-end testing.
+- **Storybook**: Integrated for component development and documentation.
+- **Code Quality**: Pre-configured ESLint, Husky hooks for pre-commit and pre-push testing ensuring code quality and consistency.
 
-### `npm start`
+## Dependencies 📦
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `react` & `react-dom` for building the user interface.
+- `mobx` & `mobx-react` for state management.
+- `react-router-dom` for navigation and routing.
+- `antd` for UI components.
+- `styled-components` for CSS in JS styling.
+- `i18next`, `i18next-browser-languagedetector`, `i18next-http-backend`, `react-i18next` for internationalization.
+- `@testing-library/user-event`, `jest-fetch-mock` for testing utilities.
+- Plus, development tools like Storybook, Cypress, and more for an enhanced development experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Scripts 🛠️
 
-### `npm test`
+- `npm start`: Runs the app in development mode.
+- `npm build`: Builds the app for production.
+- `npm test`: Runs the test suite.
+- `npm run storybook`: Starts the Storybook UI.
+- `npm run build-storybook`: Builds the Storybook for deployment.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Code Quality ✨
 
-### `npm run build`
+- ESLint for static code analysis.
+- Husky hooks integrated for automated linting and testing before commits and pushes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started 🚀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository and install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/odortega/react-boilerplate.git
+cd react-boilerplate
+npm install
+```

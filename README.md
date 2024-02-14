@@ -23,7 +23,7 @@ This project is a custom React boilerplate based on Create React App (CRA) desig
 - `styled-components` for CSS in JS styling.
 - `i18next`, `i18next-browser-languagedetector`, `i18next-http-backend`, `react-i18next` for internationalization.
 - `@testing-library/user-event`, `jest-fetch-mock` for testing utilities.
-- Plus, development tools like Storybook, Cypress, and more for an enhanced development experience.
+- Plus, development tools like Storybook, Cypress (TODO), and more for an enhanced development experience.
 
 
 ## Scripts 🛠️

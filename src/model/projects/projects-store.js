@@ -16,7 +16,9 @@ class ProjectStore {
       });
     } catch (error) {
       console.error("Failed to fetch projects", error);
-      this.projectsList = [];
+      runInAction(() => {
+        this.projectsList = [];
+      });
     }
   };
 }

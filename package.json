@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/cli": "^7.6.15",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.14.1",
     "i18next": "^23.8.2",
@@ -24,8 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "storybook": "storybook dev -p 6006 -s public",
+    "build-storybook": "storybook build -s public"
   },
   "eslintConfig": {
     "extends": [
@@ -57,8 +58,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test"
+      "pre-commit": "react-scripts test",
+      "pre-push": "react-scripts test"
     }
   },
   "devDependencies": {
@@ -66,11 +67,11 @@
     "@storybook/addon-essentials": "^7.6.14",
     "@storybook/addon-interactions": "^7.6.14",
     "@storybook/addon-links": "^7.6.14",
-    "@storybook/builder-webpack5": "^7.6.14",
-    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/addon-mdx-gfm": "^7.6.15",
     "@storybook/node-logger": "^7.6.14",
     "@storybook/preset-create-react-app": "^7.6.14",
     "@storybook/react": "^7.6.14",
+    "@storybook/react-webpack5": "^7.6.15",
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
@@ -78,6 +79,7 @@
     "cypress": "^13.6.4",
     "husky": "^9.0.10",
     "prop-types": "^15.8.1",
+    "storybook": "^7.6.15",
     "webpack": "^5.90.1"
   }
 }
